@@ -1,46 +1,90 @@
-    body {
-      background-color: #121212;
-      color: #e5e5e5;
-      font-family: "Vazirmatn", sans-serif;
-      line-height: 1.8;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      padding: 1rem;
-    }
+/* author: Pooya Samimi */
 
-    .rainbow-selection {
-      max-width: 700px;
-      text-align: center;
-      font-size: 1.2rem;
-    }
+body {
+  background-color: #121212;
+  color: #e5e5e5;
+  font-family: "Vazirmatn", sans-serif;
+  line-height: 1.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+}
 
-    /* default for safari browser*/
-    .rainbow-selection ::selection {
-      background-color: #8884; /* fallback ساده */
-      color: white;
-    }
-    .rainbow-selection ::-moz-selection {
-      background-color: #8884;
-      color: white;
-    }
+.rainbow-selection {
+  max-width: 700px;
+  text-align: center;
+  font-size: 1.2rem;
+}
 
-    /* color cycle */
-    .rainbow-selection > *:nth-child(7n+1)::selection { background-color: #e63946cc; color: #fff; }
-    .rainbow-selection > *:nth-child(7n+2)::selection { background-color: #f77f00cc; color: #fff; }
-    .rainbow-selection > *:nth-child(7n+3)::selection { background-color: #fcbf49cc; color: #000; }
-    .rainbow-selection > *:nth-child(7n+4)::selection { background-color: #90be6dcc; color: #000; }
-    .rainbow-selection > *:nth-child(7n+5)::selection { background-color: #43aa8bcc; color: #000; }
-    .rainbow-selection > *:nth-child(7n+6)::selection { background-color: #577590cc; color: #fff; }
-    .rainbow-selection > *:nth-child(7n+7)::selection { background-color: #9d4eddcc; color: #fff; }
+/* default for safari browser*/
+.rainbow-selection ::selection {
+  background-color: #8884; /* fallback ساده */
+  color: white;
+}
+.rainbow-selection ::-moz-selection {
+  background-color: #8884;
+  color: white;
+}
 
-    /* firefox*/
-    .rainbow-selection > *:nth-child(7n+1)::-moz-selection { background-color: #e63946cc; color: #fff; }
-    .rainbow-selection > *:nth-child(7n+2)::-moz-selection { background-color: #f77f00cc; color: #fff; }
-    .rainbow-selection > *:nth-child(7n+3)::-moz-selection { background-color: #fcbf49cc; color: #000; }
-    .rainbow-selection > *:nth-child(7n+4)::-moz-selection { background-color: #90be6dcc; color: #000; }
-    .rainbow-selection > *:nth-child(7n+5)::-moz-selection { background-color: #43aa8bcc; color: #000; }
-    .rainbow-selection > *:nth-child(7n+6)::-moz-selection { background-color: #577590cc; color: #fff; }
-    .rainbow-selection > *:nth-child(7n+7)::-moz-selection { background-color: #9d4eddcc; color: #fff; }
+/* color cycle */
+.rainbow-selection > *:nth-child(7n + 1)::selection {
+  background-color: #e63946cc;
+  color: #fff;
+}
+.rainbow-selection > *:nth-child(7n + 2)::selection {
+  background-color: #f77f00cc;
+  color: #fff;
+}
+.rainbow-selection > *:nth-child(7n + 3)::selection {
+  background-color: #fcbf49cc;
+  color: #000;
+}
+.rainbow-selection > *:nth-child(7n + 4)::selection {
+  background-color: #90be6dcc;
+  color: #000;
+}
+.rainbow-selection > *:nth-child(7n + 5)::selection {
+  background-color: #43aa8bcc;
+  color: #000;
+}
+.rainbow-selection > *:nth-child(7n + 6)::selection {
+  background-color: #577590cc;
+  color: #fff;
+}
+.rainbow-selection > *:nth-child(7n + 7)::selection {
+  background-color: #9d4eddcc;
+  color: #fff;
+}
+
+/* firefox*/
+.rainbow-selection > *:nth-child(7n + 1)::-moz-selection {
+  background-color: #e63946cc;
+  color: #fff;
+}
+.rainbow-selection > *:nth-child(7n + 2)::-moz-selection {
+  background-color: #f77f00cc;
+  color: #fff;
+}
+.rainbow-selection > *:nth-child(7n + 3)::-moz-selection {
+  background-color: #fcbf49cc;
+  color: #000;
+}
+.rainbow-selection > *:nth-child(7n + 4)::-moz-selection {
+  background-color: #90be6dcc;
+  color: #000;
+}
+.rainbow-selection > *:nth-child(7n + 5)::-moz-selection {
+  background-color: #43aa8bcc;
+  color: #000;
+}
+.rainbow-selection > *:nth-child(7n + 6)::-moz-selection {
+  background-color: #577590cc;
+  color: #fff;
+}
+.rainbow-selection > *:nth-child(7n + 7)::-moz-selection {
+  background-color: #9d4eddcc;
+  color: #fff;
+}
